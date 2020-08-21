@@ -2,7 +2,7 @@
 	Ejemplo que crea dos temporizadores. 
 	Del primero muestra la cuenta atrás. Cuando termina el primero, inicia el segundo.
 	Del siguiente temporizador muestra los segundos que han pasado desde que se ha iniciado.
-
+ 
 */
 
 #include <Arduino.h>

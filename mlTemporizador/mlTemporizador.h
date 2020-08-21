@@ -1,6 +1,6 @@
 /*
   mlTemporizador.h - Librería para usar temporizadores de manera sencilla.
-  Creada por Miguel Ángel López Harillo, 2020/08/21
+  Creada por Miguel Ángel López Harillo, 2020/08/21 
   Distribuida bajo licencia GNU General Public License V3
 */
 #ifndef mlTemporizador_h

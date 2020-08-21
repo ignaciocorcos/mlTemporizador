@@ -2,6 +2,6 @@ mlTemporizador KEYWORD1
 Activar KEYWORD2
 Resetear KEYWORD2
 EstaActivado KEYWORD2
-ElPlazoHaPasado KEYWORD2
 TiempoRestanteEnSeg KEYWORD2
+ElPlazoHaPasado KEYWORD2
 TiempoDesdeInicioEnSeg KEYWORD2
