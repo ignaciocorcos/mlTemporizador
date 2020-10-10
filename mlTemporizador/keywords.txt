@@ -1,7 +1,12 @@
 mlTemporizador KEYWORD1
 Activar KEYWORD2
 Resetear KEYWORD2
+PonerEnPausa KEYWORD2
+ContinuarDesdePausa KEYWORD2
 EstaActivado KEYWORD2
-TiempoRestanteEnSeg KEYWORD2
 ElPlazoHaPasado KEYWORD2
+EstaPausado KEYWORD2
+TiempoRestanteEnSeg KEYWORD2
+TiempoRestanteEnMillis KEYWORD2
 TiempoDesdeInicioEnSeg KEYWORD2
+CalculaMillisDuracionActuales KEYWORD2

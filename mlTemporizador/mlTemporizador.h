@@ -11,19 +11,26 @@
 class mlTemporizador
 {
    private:
-    uint32_t _millisInicio;      // millis en el momento que iniciamos el temporizador
-    uint32_t _millisDuracion;    // millis que debe durar el temporizador
-    bool _activado;              // para activarlo cuando queramos
-    bool _haPasadoElPlazo;       // indica si se ha cumplido el tiempo estimado
+    uint32_t  _millisInicio;              // millis en el momento que iniciamos el temporizador
+    uint32_t  _millisDuracion;            // millis que debe durar el temporizador
+    uint32_t  _millisRestantesTrasPausa;  // millis que quedan tras poner el el temporizador en pausa
+    bool      _activado;                  // para activarlo cuando queramos
+    bool      _haPasadoElPlazo;           // indica si se ha cumplido el tiempo estimado
+    bool      _estaEnPausa;               // indica si el temporizador esta en pausa  
 
   public:
     mlTemporizador( uint32_t pMillisDuracion );
-    void Activar();
-    void Resetear();
-    boolean EstaActivado();
-    boolean ElPlazoHaPasado();
-    uint32_t TiempoRestanteEnSeg();
-    uint32_t TiempoDesdeInicioEnSeg();
+    void      Activar( void );
+    void      Resetear( void );
+    void      PonerEnPausa( void );
+    void      ContinuarDesdePausa( void );
+    boolean   EstaActivado( void );
+    boolean   ElPlazoHaPasado( void );
+    boolean   EstaPausado( void );
+    uint32_t  TiempoRestanteEnSeg( void );
+    uint32_t  TiempoRestanteEnMillis( void );
+    uint32_t  TiempoDesdeInicioEnSeg( void );
+    uint32_t  CalculaMillisDuracionActuales( void );
 };
 
 #endif
